@@ -19,3 +19,20 @@
 # System files
 .DS_Store
 Thumbs.db
+
+# Reference files and indexes
+*.fa
+*.fa.gz
+*.fasta
+*.fasta.gz
+*.gtf
+*.gtf.gz
+reference/
+salmon_index/
+
+# Salmon full quantification output
+rnaseq_foundation/results/salmon/
+
+# Local symlinks to large reference/index directories
+rnaseq_foundation/reference
+rnaseq_foundation/salmon_index
