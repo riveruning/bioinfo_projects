@@ -1,0 +1,21 @@
+# R temporary files
+.RData
+.Rhistory
+.Rproj.user/
+
+# Raw sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Large bioinformatics intermediate files
+*.bam
+*.sam
+*.cram
+*.bai
+*.csi
+
+# System files
+.DS_Store
+Thumbs.db

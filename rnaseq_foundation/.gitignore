@@ -1,0 +1,22 @@
+# Raw sequencing data
+data/raw_fastq
+data/raw_fastq/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Large bioinformatics intermediate files
+*.bam
+*.sam
+*.cram
+*.bai
+*.csi
+
+# Compressed archives
+*.zip
+*.tar.gz
+
+# System files
+.DS_Store
+Thumbs.db

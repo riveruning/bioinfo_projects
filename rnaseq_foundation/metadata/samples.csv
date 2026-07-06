@@ -1,0 +1,2 @@
+run_accession,dataset,organism,cell_type,condition,note
+SRR1039508,GSE52778,Homo sapiens,human airway smooth muscle cell,unknown_first_test,real SRA run used for FASTQ/QC practice
