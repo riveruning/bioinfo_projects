@@ -1,0 +1,27 @@
+FASTQ output directory:
+/mnt/d/bioinfo_data/rnaseq_foundation/raw_fastq
+==============================
+Processing SRR1039508
+==============================
+SRR1039508: FASTQ files already exist. Skipping download.
+SRR1039508: checking gzip integrity...
+SRR1039508: OK
+==============================
+Processing SRR1039509
+==============================
+SRR1039509: FASTQ files already exist. Skipping download.
+SRR1039509: checking gzip integrity...
+SRR1039509: OK
+==============================
+Processing SRR1039512
+==============================
+SRR1039512: downloading FASTQ files...
+Read 28136282 spots for SRR1039512
+Written 28136282 spots for SRR1039512
+SRR1039512: checking gzip integrity...
+SRR1039512: OK
+==============================
+Processing SRR1039513
+==============================
+SRR1039513: downloading FASTQ files...
+Rejected 15642832 READS because READLEN < 1

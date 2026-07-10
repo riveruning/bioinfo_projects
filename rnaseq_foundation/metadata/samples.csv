@@ -1,2 +1,9 @@
-run_accession,dataset,organism,cell_type,condition,note
-SRR1039508,GSE52778,Homo sapiens,human airway smooth muscle cell,unknown_first_test,real SRA run used for FASTQ/QC practice
+sample_id,cell_line,dex,condition
+SRR1039508,N61311,untrt,untreated
+SRR1039509,N61311,trt,dexamethasone
+SRR1039512,N052611,untrt,untreated
+SRR1039513,N052611,trt,dexamethasone
+SRR1039516,N080611,untrt,untreated
+SRR1039517,N080611,trt,dexamethasone
+SRR1039520,N061011,untrt,untreated
+SRR1039521,N061011,trt,dexamethasone

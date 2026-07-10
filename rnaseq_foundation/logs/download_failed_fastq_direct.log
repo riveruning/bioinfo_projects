@@ -1,0 +1,19 @@
+FASTQ output directory:
+/mnt/d/bioinfo_data/rnaseq_foundation/raw_fastq
+==============================
+Processing SRR1039516
+==============================
+SRR1039516: removing old incomplete files if any...
+SRR1039516: downloading with fastq-dump...
+SRR1039516: fastq-dump failed.
+==============================
+Processing SRR1039517
+==============================
+SRR1039517: removing old incomplete files if any...
+SRR1039517: downloading with fastq-dump...
+SRR1039517: fastq-dump failed.
+==============================
+Processing SRR1039520
+==============================
+SRR1039520: removing old incomplete files if any...
+SRR1039520: downloading with fastq-dump...

@@ -36,3 +36,6 @@ rnaseq_foundation/results/salmon/
 # Local symlinks to large reference/index directories
 rnaseq_foundation/reference
 rnaseq_foundation/salmon_index
+
+# Temporary working files
+rnaseq_foundation/tmp/
