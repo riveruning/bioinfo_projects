@@ -1,0 +1,385 @@
+nohup: ignoring input
+FASTQ directory:
+/mnt/d/bioinfo_data/rnaseq_foundation/raw_fastq
+
+Checking required tools...
+/home/riveruning/miniforge3/envs/bioinfo/bin/fastqc
+/home/riveruning/miniforge3/envs/bioinfo/bin/multiqc
+
+Checking FASTQ files from metadata/srr_ids.txt...
+SRR1039508 OK
+SRR1039509 OK
+SRR1039512 OK
+SRR1039513 OK
+SRR1039516 OK
+SRR1039517 OK
+SRR1039520 OK
+SRR1039521 OK
+
+Running FastQC for all FASTQ files...
+application/gzip
+Started analysis of SRR1039508_1.fastq.gz
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+Started analysis of SRR1039509_1.fastq.gz
+Started analysis of SRR1039512_1.fastq.gz
+Started analysis of SRR1039513_1.fastq.gz
+Approx 5% complete for SRR1039513_1.fastq.gz
+Approx 5% complete for SRR1039508_1.fastq.gz
+Approx 5% complete for SRR1039509_1.fastq.gz
+Approx 5% complete for SRR1039512_1.fastq.gz
+Approx 10% complete for SRR1039513_1.fastq.gz
+Approx 10% complete for SRR1039508_1.fastq.gz
+Approx 10% complete for SRR1039509_1.fastq.gz
+Approx 15% complete for SRR1039513_1.fastq.gz
+Approx 10% complete for SRR1039512_1.fastq.gz
+Approx 15% complete for SRR1039508_1.fastq.gz
+Approx 15% complete for SRR1039509_1.fastq.gz
+Approx 20% complete for SRR1039513_1.fastq.gz
+Approx 25% complete for SRR1039513_1.fastq.gz
+Approx 20% complete for SRR1039508_1.fastq.gz
+Approx 20% complete for SRR1039509_1.fastq.gz
+Approx 15% complete for SRR1039512_1.fastq.gz
+Approx 30% complete for SRR1039513_1.fastq.gz
+Approx 25% complete for SRR1039508_1.fastq.gz
+Approx 25% complete for SRR1039509_1.fastq.gz
+Approx 35% complete for SRR1039513_1.fastq.gz
+Approx 20% complete for SRR1039512_1.fastq.gz
+Approx 30% complete for SRR1039508_1.fastq.gz
+Approx 30% complete for SRR1039509_1.fastq.gz
+Approx 40% complete for SRR1039513_1.fastq.gz
+Approx 25% complete for SRR1039512_1.fastq.gz
+Approx 35% complete for SRR1039508_1.fastq.gz
+Approx 35% complete for SRR1039509_1.fastq.gz
+Approx 45% complete for SRR1039513_1.fastq.gz
+Approx 50% complete for SRR1039513_1.fastq.gz
+Approx 40% complete for SRR1039508_1.fastq.gz
+Approx 40% complete for SRR1039509_1.fastq.gz
+Approx 30% complete for SRR1039512_1.fastq.gz
+Approx 55% complete for SRR1039513_1.fastq.gz
+Approx 45% complete for SRR1039508_1.fastq.gz
+Approx 45% complete for SRR1039509_1.fastq.gz
+Approx 60% complete for SRR1039513_1.fastq.gz
+Approx 35% complete for SRR1039512_1.fastq.gz
+Approx 50% complete for SRR1039508_1.fastq.gz
+Approx 50% complete for SRR1039509_1.fastq.gz
+Approx 65% complete for SRR1039513_1.fastq.gz
+Approx 55% complete for SRR1039508_1.fastq.gz
+Approx 70% complete for SRR1039513_1.fastq.gz
+Approx 55% complete for SRR1039509_1.fastq.gz
+Approx 40% complete for SRR1039512_1.fastq.gz
+Approx 75% complete for SRR1039513_1.fastq.gz
+Approx 60% complete for SRR1039508_1.fastq.gz
+Approx 60% complete for SRR1039509_1.fastq.gz
+Approx 45% complete for SRR1039512_1.fastq.gz
+Approx 80% complete for SRR1039513_1.fastq.gz
+Approx 65% complete for SRR1039508_1.fastq.gz
+Approx 65% complete for SRR1039509_1.fastq.gz
+Approx 85% complete for SRR1039513_1.fastq.gz
+Approx 50% complete for SRR1039512_1.fastq.gz
+Approx 70% complete for SRR1039508_1.fastq.gz
+Approx 70% complete for SRR1039509_1.fastq.gz
+Approx 90% complete for SRR1039513_1.fastq.gz
+Approx 95% complete for SRR1039513_1.fastq.gz
+Approx 75% complete for SRR1039508_1.fastq.gz
+Approx 75% complete for SRR1039509_1.fastq.gz
+Approx 55% complete for SRR1039512_1.fastq.gz
+Analysis complete for SRR1039513_1.fastq.gz
+Started analysis of SRR1039516_1.fastq.gz
+Approx 80% complete for SRR1039508_1.fastq.gz
+Approx 80% complete for SRR1039509_1.fastq.gz
+Approx 60% complete for SRR1039512_1.fastq.gz
+Approx 5% complete for SRR1039516_1.fastq.gz
+Approx 85% complete for SRR1039508_1.fastq.gz
+Approx 85% complete for SRR1039509_1.fastq.gz
+Approx 90% complete for SRR1039508_1.fastq.gz
+Approx 90% complete for SRR1039509_1.fastq.gz
+Approx 10% complete for SRR1039516_1.fastq.gz
+Approx 65% complete for SRR1039512_1.fastq.gz
+Approx 95% complete for SRR1039508_1.fastq.gz
+Approx 95% complete for SRR1039509_1.fastq.gz
+Approx 15% complete for SRR1039516_1.fastq.gz
+Approx 70% complete for SRR1039512_1.fastq.gz
+Analysis complete for SRR1039508_1.fastq.gz
+Started analysis of SRR1039517_1.fastq.gz
+Analysis complete for SRR1039509_1.fastq.gz
+Started analysis of SRR1039520_1.fastq.gz
+Approx 20% complete for SRR1039516_1.fastq.gz
+Approx 5% complete for SRR1039520_1.fastq.gz
+Approx 75% complete for SRR1039512_1.fastq.gz
+Approx 5% complete for SRR1039517_1.fastq.gz
+Approx 25% complete for SRR1039516_1.fastq.gz
+Approx 10% complete for SRR1039520_1.fastq.gz
+Approx 80% complete for SRR1039512_1.fastq.gz
+Approx 15% complete for SRR1039520_1.fastq.gz
+Approx 30% complete for SRR1039516_1.fastq.gz
+Approx 10% complete for SRR1039517_1.fastq.gz
+Approx 20% complete for SRR1039520_1.fastq.gz
+Approx 85% complete for SRR1039512_1.fastq.gz
+Approx 35% complete for SRR1039516_1.fastq.gz
+Approx 25% complete for SRR1039520_1.fastq.gz
+Approx 15% complete for SRR1039517_1.fastq.gz
+Approx 40% complete for SRR1039516_1.fastq.gz
+Approx 30% complete for SRR1039520_1.fastq.gz
+Approx 90% complete for SRR1039512_1.fastq.gz
+Approx 35% complete for SRR1039520_1.fastq.gz
+Approx 45% complete for SRR1039516_1.fastq.gz
+Approx 20% complete for SRR1039517_1.fastq.gz
+Approx 95% complete for SRR1039512_1.fastq.gz
+Approx 40% complete for SRR1039520_1.fastq.gz
+Approx 50% complete for SRR1039516_1.fastq.gz
+Approx 45% complete for SRR1039520_1.fastq.gz
+Approx 25% complete for SRR1039517_1.fastq.gz
+Analysis complete for SRR1039512_1.fastq.gz
+Started analysis of SRR1039521_1.fastq.gz
+Approx 55% complete for SRR1039516_1.fastq.gz
+Approx 50% complete for SRR1039520_1.fastq.gz
+Approx 5% complete for SRR1039521_1.fastq.gz
+Approx 55% complete for SRR1039520_1.fastq.gz
+Approx 30% complete for SRR1039517_1.fastq.gz
+Approx 60% complete for SRR1039516_1.fastq.gz
+Approx 10% complete for SRR1039521_1.fastq.gz
+Approx 60% complete for SRR1039520_1.fastq.gz
+Approx 65% complete for SRR1039516_1.fastq.gz
+Approx 15% complete for SRR1039521_1.fastq.gz
+Approx 65% complete for SRR1039520_1.fastq.gz
+Approx 35% complete for SRR1039517_1.fastq.gz
+Approx 20% complete for SRR1039521_1.fastq.gz
+Approx 70% complete for SRR1039516_1.fastq.gz
+Approx 70% complete for SRR1039520_1.fastq.gz
+Approx 40% complete for SRR1039517_1.fastq.gz
+Approx 25% complete for SRR1039521_1.fastq.gz
+Approx 75% complete for SRR1039520_1.fastq.gz
+Approx 75% complete for SRR1039516_1.fastq.gz
+Approx 30% complete for SRR1039521_1.fastq.gz
+Approx 80% complete for SRR1039520_1.fastq.gz
+Approx 80% complete for SRR1039516_1.fastq.gz
+Approx 45% complete for SRR1039517_1.fastq.gz
+Approx 35% complete for SRR1039521_1.fastq.gz
+Approx 85% complete for SRR1039520_1.fastq.gz
+Approx 85% complete for SRR1039516_1.fastq.gz
+Approx 40% complete for SRR1039521_1.fastq.gz
+Approx 90% complete for SRR1039520_1.fastq.gz
+Approx 50% complete for SRR1039517_1.fastq.gz
+Approx 45% complete for SRR1039521_1.fastq.gz
+Approx 90% complete for SRR1039516_1.fastq.gz
+Approx 95% complete for SRR1039520_1.fastq.gz
+Approx 50% complete for SRR1039521_1.fastq.gz
+Analysis complete for SRR1039520_1.fastq.gz
+Started analysis of SRR1039508_2.fastq.gz
+Approx 55% complete for SRR1039517_1.fastq.gz
+Approx 95% complete for SRR1039516_1.fastq.gz
+Approx 55% complete for SRR1039521_1.fastq.gz
+Approx 5% complete for SRR1039508_2.fastq.gz
+Analysis complete for SRR1039516_1.fastq.gz
+Started analysis of SRR1039509_2.fastq.gz
+Approx 60% complete for SRR1039517_1.fastq.gz
+Approx 60% complete for SRR1039521_1.fastq.gz
+Approx 10% complete for SRR1039508_2.fastq.gz
+Approx 5% complete for SRR1039509_2.fastq.gz
+Approx 65% complete for SRR1039521_1.fastq.gz
+Approx 15% complete for SRR1039508_2.fastq.gz
+Approx 65% complete for SRR1039517_1.fastq.gz
+Approx 10% complete for SRR1039509_2.fastq.gz
+Approx 70% complete for SRR1039521_1.fastq.gz
+Approx 20% complete for SRR1039508_2.fastq.gz
+Approx 15% complete for SRR1039509_2.fastq.gz
+Approx 70% complete for SRR1039517_1.fastq.gz
+Approx 75% complete for SRR1039521_1.fastq.gz
+Approx 25% complete for SRR1039508_2.fastq.gz
+Approx 20% complete for SRR1039509_2.fastq.gz
+Approx 80% complete for SRR1039521_1.fastq.gz
+Approx 30% complete for SRR1039508_2.fastq.gz
+Approx 75% complete for SRR1039517_1.fastq.gz
+Approx 25% complete for SRR1039509_2.fastq.gz
+Approx 85% complete for SRR1039521_1.fastq.gz
+Approx 35% complete for SRR1039508_2.fastq.gz
+Approx 30% complete for SRR1039509_2.fastq.gz
+Approx 90% complete for SRR1039521_1.fastq.gz
+Approx 40% complete for SRR1039508_2.fastq.gz
+Approx 80% complete for SRR1039517_1.fastq.gz
+Approx 35% complete for SRR1039509_2.fastq.gz
+Approx 95% complete for SRR1039521_1.fastq.gz
+Approx 45% complete for SRR1039508_2.fastq.gz
+Approx 40% complete for SRR1039509_2.fastq.gz
+Approx 85% complete for SRR1039517_1.fastq.gz
+Approx 50% complete for SRR1039508_2.fastq.gz
+Analysis complete for SRR1039521_1.fastq.gz
+Started analysis of SRR1039512_2.fastq.gz
+Approx 45% complete for SRR1039509_2.fastq.gz
+Approx 55% complete for SRR1039508_2.fastq.gz
+Approx 90% complete for SRR1039517_1.fastq.gz
+Approx 5% complete for SRR1039512_2.fastq.gz
+Approx 50% complete for SRR1039509_2.fastq.gz
+Approx 60% complete for SRR1039508_2.fastq.gz
+Approx 55% complete for SRR1039509_2.fastq.gz
+Approx 10% complete for SRR1039512_2.fastq.gz
+Approx 65% complete for SRR1039508_2.fastq.gz
+Approx 95% complete for SRR1039517_1.fastq.gz
+Approx 60% complete for SRR1039509_2.fastq.gz
+Approx 70% complete for SRR1039508_2.fastq.gz
+Approx 15% complete for SRR1039512_2.fastq.gz
+Analysis complete for SRR1039517_1.fastq.gz
+Started analysis of SRR1039513_2.fastq.gz
+Approx 65% complete for SRR1039509_2.fastq.gz
+Approx 75% complete for SRR1039508_2.fastq.gz
+Approx 20% complete for SRR1039512_2.fastq.gz
+Approx 70% complete for SRR1039509_2.fastq.gz
+Approx 80% complete for SRR1039508_2.fastq.gz
+Approx 5% complete for SRR1039513_2.fastq.gz
+Approx 75% complete for SRR1039509_2.fastq.gz
+Approx 85% complete for SRR1039508_2.fastq.gz
+Approx 25% complete for SRR1039512_2.fastq.gz
+Approx 80% complete for SRR1039509_2.fastq.gz
+Approx 90% complete for SRR1039508_2.fastq.gz
+Approx 30% complete for SRR1039512_2.fastq.gz
+Approx 10% complete for SRR1039513_2.fastq.gz
+Approx 85% complete for SRR1039509_2.fastq.gz
+Approx 95% complete for SRR1039508_2.fastq.gz
+Approx 90% complete for SRR1039509_2.fastq.gz
+Approx 35% complete for SRR1039512_2.fastq.gz
+Analysis complete for SRR1039508_2.fastq.gz
+Started analysis of SRR1039516_2.fastq.gz
+Approx 15% complete for SRR1039513_2.fastq.gz
+Approx 95% complete for SRR1039509_2.fastq.gz
+Approx 5% complete for SRR1039516_2.fastq.gz
+Approx 40% complete for SRR1039512_2.fastq.gz
+Analysis complete for SRR1039509_2.fastq.gz
+Started analysis of SRR1039517_2.fastq.gz
+Approx 10% complete for SRR1039516_2.fastq.gz
+Approx 45% complete for SRR1039512_2.fastq.gz
+Approx 20% complete for SRR1039513_2.fastq.gz
+Approx 5% complete for SRR1039517_2.fastq.gz
+Approx 15% complete for SRR1039516_2.fastq.gz
+Approx 50% complete for SRR1039512_2.fastq.gz
+Approx 20% complete for SRR1039516_2.fastq.gz
+Approx 25% complete for SRR1039513_2.fastq.gz
+Approx 10% complete for SRR1039517_2.fastq.gz
+Approx 55% complete for SRR1039512_2.fastq.gz
+Approx 25% complete for SRR1039516_2.fastq.gz
+Approx 15% complete for SRR1039517_2.fastq.gz
+Approx 60% complete for SRR1039512_2.fastq.gz
+Approx 30% complete for SRR1039513_2.fastq.gz
+Approx 30% complete for SRR1039516_2.fastq.gz
+Approx 35% complete for SRR1039516_2.fastq.gz
+Approx 65% complete for SRR1039512_2.fastq.gz
+Approx 20% complete for SRR1039517_2.fastq.gz
+Approx 35% complete for SRR1039513_2.fastq.gz
+Approx 40% complete for SRR1039516_2.fastq.gz
+Approx 70% complete for SRR1039512_2.fastq.gz
+Approx 25% complete for SRR1039517_2.fastq.gz
+Approx 45% complete for SRR1039516_2.fastq.gz
+Approx 40% complete for SRR1039513_2.fastq.gz
+Approx 75% complete for SRR1039512_2.fastq.gz
+Approx 30% complete for SRR1039517_2.fastq.gz
+Approx 50% complete for SRR1039516_2.fastq.gz
+Approx 80% complete for SRR1039512_2.fastq.gz
+Approx 55% complete for SRR1039516_2.fastq.gz
+Approx 45% complete for SRR1039513_2.fastq.gz
+Approx 35% complete for SRR1039517_2.fastq.gz
+Approx 85% complete for SRR1039512_2.fastq.gz
+Approx 60% complete for SRR1039516_2.fastq.gz
+Approx 40% complete for SRR1039517_2.fastq.gz
+Approx 50% complete for SRR1039513_2.fastq.gz
+Approx 90% complete for SRR1039512_2.fastq.gz
+Approx 65% complete for SRR1039516_2.fastq.gz
+Approx 45% complete for SRR1039517_2.fastq.gz
+Approx 70% complete for SRR1039516_2.fastq.gz
+Approx 95% complete for SRR1039512_2.fastq.gz
+Approx 55% complete for SRR1039513_2.fastq.gz
+Approx 75% complete for SRR1039516_2.fastq.gz
+Approx 50% complete for SRR1039517_2.fastq.gz
+Analysis complete for SRR1039512_2.fastq.gz
+Started analysis of SRR1039520_2.fastq.gz
+Approx 80% complete for SRR1039516_2.fastq.gz
+Approx 5% complete for SRR1039520_2.fastq.gz
+Approx 60% complete for SRR1039513_2.fastq.gz
+Approx 55% complete for SRR1039517_2.fastq.gz
+Approx 10% complete for SRR1039520_2.fastq.gz
+Approx 85% complete for SRR1039516_2.fastq.gz
+Approx 15% complete for SRR1039520_2.fastq.gz
+Approx 90% complete for SRR1039516_2.fastq.gz
+Approx 60% complete for SRR1039517_2.fastq.gz
+Approx 65% complete for SRR1039513_2.fastq.gz
+Approx 20% complete for SRR1039520_2.fastq.gz
+Approx 95% complete for SRR1039516_2.fastq.gz
+Approx 25% complete for SRR1039520_2.fastq.gz
+Approx 65% complete for SRR1039517_2.fastq.gz
+Approx 70% complete for SRR1039513_2.fastq.gz
+Analysis complete for SRR1039516_2.fastq.gz
+Started analysis of SRR1039521_2.fastq.gz
+Approx 30% complete for SRR1039520_2.fastq.gz
+Approx 70% complete for SRR1039517_2.fastq.gz
+Approx 35% complete for SRR1039520_2.fastq.gz
+Approx 5% complete for SRR1039521_2.fastq.gz
+Approx 75% complete for SRR1039513_2.fastq.gz
+Approx 40% complete for SRR1039520_2.fastq.gz
+Approx 10% complete for SRR1039521_2.fastq.gz
+Approx 75% complete for SRR1039517_2.fastq.gz
+Approx 45% complete for SRR1039520_2.fastq.gz
+Approx 15% complete for SRR1039521_2.fastq.gz
+Approx 50% complete for SRR1039520_2.fastq.gz
+Approx 80% complete for SRR1039513_2.fastq.gz
+Approx 20% complete for SRR1039521_2.fastq.gz
+Approx 80% complete for SRR1039517_2.fastq.gz
+Approx 55% complete for SRR1039520_2.fastq.gz
+Approx 25% complete for SRR1039521_2.fastq.gz
+Approx 60% complete for SRR1039520_2.fastq.gz
+Approx 85% complete for SRR1039517_2.fastq.gz
+Approx 85% complete for SRR1039513_2.fastq.gz
+Approx 30% complete for SRR1039521_2.fastq.gz
+Approx 65% complete for SRR1039520_2.fastq.gz
+Approx 35% complete for SRR1039521_2.fastq.gz
+Approx 90% complete for SRR1039517_2.fastq.gz
+Approx 70% complete for SRR1039520_2.fastq.gz
+Approx 90% complete for SRR1039513_2.fastq.gz
+Approx 40% complete for SRR1039521_2.fastq.gz
+Approx 75% complete for SRR1039520_2.fastq.gz
+Approx 95% complete for SRR1039517_2.fastq.gz
+Approx 45% complete for SRR1039521_2.fastq.gz
+Approx 80% complete for SRR1039520_2.fastq.gz
+Approx 95% complete for SRR1039513_2.fastq.gz
+Approx 50% complete for SRR1039521_2.fastq.gz
+Approx 85% complete for SRR1039520_2.fastq.gz
+Analysis complete for SRR1039517_2.fastq.gz
+Approx 55% complete for SRR1039521_2.fastq.gz
+Approx 90% complete for SRR1039520_2.fastq.gz
+Analysis complete for SRR1039513_2.fastq.gz
+Approx 95% complete for SRR1039520_2.fastq.gz
+Approx 60% complete for SRR1039521_2.fastq.gz
+Analysis complete for SRR1039520_2.fastq.gz
+Approx 65% complete for SRR1039521_2.fastq.gz
+Approx 70% complete for SRR1039521_2.fastq.gz
+Approx 75% complete for SRR1039521_2.fastq.gz
+Approx 80% complete for SRR1039521_2.fastq.gz
+Approx 85% complete for SRR1039521_2.fastq.gz
+Approx 90% complete for SRR1039521_2.fastq.gz
+Approx 95% complete for SRR1039521_2.fastq.gz
+Analysis complete for SRR1039521_2.fastq.gz
+
+Running MultiQC...
+
+/// MultiQC 🔍 v1.35
+
+       file_search | Search path: /home/riveruning/bioinfo_projects/rnaseq_foundation/results/qc/fastqc_all_samples
+            fastqc | Found 16 reports
+     write_results | Data        : results/qc/multiqc_all_samples/multiqc_report_data
+     write_results | Report      : results/qc/multiqc_all_samples/multiqc_report.html
+           multiqc | MultiQC complete
+
+Task 07 finished.
+FastQC output: results/qc/fastqc_all_samples
+MultiQC report: results/qc/multiqc_all_samples/multiqc_report.html

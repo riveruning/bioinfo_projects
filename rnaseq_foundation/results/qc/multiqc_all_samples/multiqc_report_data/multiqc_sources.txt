@@ -1,0 +1,17 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR1039508_1	/home/riveruning/bioinfo_projects/rnaseq_foundation/results/qc/fastqc_all_samples/SRR1039508_1_fastqc.zip
+FastQC	all_sections	SRR1039508_2	/home/riveruning/bioinfo_projects/rnaseq_foundation/results/qc/fastqc_all_samples/SRR1039508_2_fastqc.zip
+FastQC	all_sections	SRR1039509_1	/home/riveruning/bioinfo_projects/rnaseq_foundation/results/qc/fastqc_all_samples/SRR1039509_1_fastqc.zip
+FastQC	all_sections	SRR1039509_2	/home/riveruning/bioinfo_projects/rnaseq_foundation/results/qc/fastqc_all_samples/SRR1039509_2_fastqc.zip
+FastQC	all_sections	SRR1039512_1	/home/riveruning/bioinfo_projects/rnaseq_foundation/results/qc/fastqc_all_samples/SRR1039512_1_fastqc.zip
+FastQC	all_sections	SRR1039512_2	/home/riveruning/bioinfo_projects/rnaseq_foundation/results/qc/fastqc_all_samples/SRR1039512_2_fastqc.zip
+FastQC	all_sections	SRR1039513_1	/home/riveruning/bioinfo_projects/rnaseq_foundation/results/qc/fastqc_all_samples/SRR1039513_1_fastqc.zip
+FastQC	all_sections	SRR1039513_2	/home/riveruning/bioinfo_projects/rnaseq_foundation/results/qc/fastqc_all_samples/SRR1039513_2_fastqc.zip
+FastQC	all_sections	SRR1039516_1	/home/riveruning/bioinfo_projects/rnaseq_foundation/results/qc/fastqc_all_samples/SRR1039516_1_fastqc.zip
+FastQC	all_sections	SRR1039516_2	/home/riveruning/bioinfo_projects/rnaseq_foundation/results/qc/fastqc_all_samples/SRR1039516_2_fastqc.zip
+FastQC	all_sections	SRR1039517_1	/home/riveruning/bioinfo_projects/rnaseq_foundation/results/qc/fastqc_all_samples/SRR1039517_1_fastqc.zip
+FastQC	all_sections	SRR1039517_2	/home/riveruning/bioinfo_projects/rnaseq_foundation/results/qc/fastqc_all_samples/SRR1039517_2_fastqc.zip
+FastQC	all_sections	SRR1039520_1	/home/riveruning/bioinfo_projects/rnaseq_foundation/results/qc/fastqc_all_samples/SRR1039520_1_fastqc.zip
+FastQC	all_sections	SRR1039520_2	/home/riveruning/bioinfo_projects/rnaseq_foundation/results/qc/fastqc_all_samples/SRR1039520_2_fastqc.zip
+FastQC	all_sections	SRR1039521_1	/home/riveruning/bioinfo_projects/rnaseq_foundation/results/qc/fastqc_all_samples/SRR1039521_1_fastqc.zip
+FastQC	all_sections	SRR1039521_2	/home/riveruning/bioinfo_projects/rnaseq_foundation/results/qc/fastqc_all_samples/SRR1039521_2_fastqc.zip
