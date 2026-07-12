@@ -1,0 +1,83 @@
+nohup: ignoring input
+FASTQ directory:
+/mnt/d/bioinfo_data/rnaseq_foundation/raw_fastq
+
+Salmon index:
+salmon_index/gencode_v50_salmon_index
+
+Checking Salmon...
+/home/riveruning/miniforge3/envs/bioinfo/bin/salmon
+salmon 2.3.1
+
+Checking input FASTQ files...
+SRR1039508 FASTQ OK
+SRR1039509 FASTQ OK
+SRR1039512 FASTQ OK
+SRR1039513 FASTQ OK
+SRR1039516 FASTQ OK
+SRR1039517 FASTQ OK
+SRR1039520 FASTQ OK
+SRR1039521 FASTQ OK
+
+Running Salmon quantification...
+==============================
+Processing SRR1039508
+==============================
+SRR1039508 already has quant.sf, skipping Salmon.
+SRR1039508 quant.sf OK
+==============================
+Processing SRR1039509
+==============================
+[2m2026-07-12T06:59:30.923786Z[0m [33m WARN[0m [2msalmon[0m[2m:[0m --validateMappings has no effect (deprecated in salmon too): selective alignment is the default mapping mode; pass --sketch for pseudoalignment.
+[2m2026-07-12T06:59:30.968990Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading SSHash dictionary from salmon_index/gencode_v50_salmon_index/index.ssi
+[2m2026-07-12T06:59:34.294704Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   k=31, 2977206 strings, canonical=true
+[2m2026-07-12T06:59:34.294763Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading contig table from salmon_index/gencode_v50_salmon_index/index.ctab
+[2m2026-07-12T06:59:40.204368Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   2977206 contigs, 48030464 entries, entry_width=40 bits
+[2m2026-07-12T06:59:40.204452Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading reference info from salmon_index/gencode_v50_salmon_index/index.refinfo
+[2m2026-07-12T06:59:44.447936Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   654828 references, max_ref_len=347561
+[2m2026-07-12T06:59:44.451767Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading equivalence class table from salmon_index/gencode_v50_salmon_index/index.ectab
+[2m2026-07-12T06:59:45.884206Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   2977206 tiles, 2371658 ECs, 44248341 label entries
+[2m2026-07-12T06:59:45.884852Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   ref_shift=20, pos_mask=0x7ffff
+[2m2026-07-12T07:00:02.977713Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapping reads (selective-alignment mode, 4 threads)
+[2m2026-07-12T07:03:50.384151Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapped 20034914 / 21155707 fragments (94.70%)
+[2m2026-07-12T07:03:52.873167Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m estimating abundances (VBEM)
+[2m2026-07-12T07:06:12.109848Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m writing results to results/salmon/SRR1039509
+[2m2026-07-12T07:06:12.469601Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m processed 21155707 fragments, mapped 20034914 (94.70%), 929056 equivalence classes
+SRR1039509 quant.sf OK
+==============================
+Processing SRR1039512
+==============================
+[2m2026-07-12T07:06:12.520391Z[0m [33m WARN[0m [2msalmon[0m[2m:[0m --validateMappings has no effect (deprecated in salmon too): selective alignment is the default mapping mode; pass --sketch for pseudoalignment.
+[2m2026-07-12T07:06:12.546589Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading SSHash dictionary from salmon_index/gencode_v50_salmon_index/index.ssi
+[2m2026-07-12T07:06:14.906736Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   k=31, 2977206 strings, canonical=true
+[2m2026-07-12T07:06:14.906807Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading contig table from salmon_index/gencode_v50_salmon_index/index.ctab
+[2m2026-07-12T07:06:16.675997Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   2977206 contigs, 48030464 entries, entry_width=40 bits
+[2m2026-07-12T07:06:16.676075Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading reference info from salmon_index/gencode_v50_salmon_index/index.refinfo
+[2m2026-07-12T07:06:19.010843Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   654828 references, max_ref_len=347561
+[2m2026-07-12T07:06:19.012990Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading equivalence class table from salmon_index/gencode_v50_salmon_index/index.ectab
+[2m2026-07-12T07:06:20.070574Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   2977206 tiles, 2371658 ECs, 44248341 label entries
+[2m2026-07-12T07:06:20.071040Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   ref_shift=20, pos_mask=0x7ffff
+[2m2026-07-12T07:06:31.897241Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapping reads (selective-alignment mode, 4 threads)
+[2m2026-07-12T07:11:32.499826Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapped 27040337 / 28136282 fragments (96.10%)
+[2m2026-07-12T07:11:37.966908Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m estimating abundances (VBEM)
+[2m2026-07-12T07:14:17.640297Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m writing results to results/salmon/SRR1039512
+[2m2026-07-12T07:14:18.277732Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m processed 28136282 fragments, mapped 27040337 (96.10%), 1052124 equivalence classes
+SRR1039512 quant.sf OK
+==============================
+Processing SRR1039513
+==============================
+[2m2026-07-12T07:14:18.561382Z[0m [33m WARN[0m [2msalmon[0m[2m:[0m --validateMappings has no effect (deprecated in salmon too): selective alignment is the default mapping mode; pass --sketch for pseudoalignment.
+[2m2026-07-12T07:14:18.585264Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading SSHash dictionary from salmon_index/gencode_v50_salmon_index/index.ssi
+[2m2026-07-12T07:14:21.323770Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   k=31, 2977206 strings, canonical=true
+[2m2026-07-12T07:14:21.323850Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading contig table from salmon_index/gencode_v50_salmon_index/index.ctab
+[2m2026-07-12T07:14:23.094039Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   2977206 contigs, 48030464 entries, entry_width=40 bits
+[2m2026-07-12T07:14:23.094133Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading reference info from salmon_index/gencode_v50_salmon_index/index.refinfo
+[2m2026-07-12T07:14:25.521930Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   654828 references, max_ref_len=347561
+[2m2026-07-12T07:14:25.524688Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading equivalence class table from salmon_index/gencode_v50_salmon_index/index.ectab
+[2m2026-07-12T07:14:26.819277Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   2977206 tiles, 2371658 ECs, 44248341 label entries
+[2m2026-07-12T07:14:26.819657Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   ref_shift=20, pos_mask=0x7ffff
+[2m2026-07-12T07:14:38.634003Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapping reads (selective-alignment mode, 4 threads)
+Error: quantification failed
+
+Caused by:
+    mapping failed: Incompatible record set sizes: 13104 != 16384
