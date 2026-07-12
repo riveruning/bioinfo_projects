@@ -39,3 +39,6 @@ rnaseq_foundation/salmon_index
 
 # Temporary working files
 rnaseq_foundation/tmp/
+
+# Derived tximport helper file
+rnaseq_foundation/metadata/tx2gene_for_salmon.tsv

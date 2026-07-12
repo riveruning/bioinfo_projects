@@ -1,0 +1,5 @@
+item	value
+samples	8
+genes_in_count_matrix	82323
+transcripts_in_quant_sf	654828
+transcripts_in_tx2gene_for_salmon	654828
