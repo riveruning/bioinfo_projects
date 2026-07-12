@@ -1,0 +1,8 @@
+item	value
+samples	8
+genes_before_filtering	82323
+genes_after_filtering	20407
+significant_padj_0.05	3711
+significant_padj_0.05_up	2077
+significant_padj_0.05_down	1634
+significant_padj_0.05_abs_log2fc_1	988
