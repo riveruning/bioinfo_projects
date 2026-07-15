@@ -1,0 +1,12 @@
+item	value
+genes_in_deseq2_result	20407
+mapped_ensembl_ids	16902
+mapped_entrez_ids	16571
+upregulated_entrez_for_ora	485
+downregulated_entrez_for_ora	433
+go_bp_up_terms	77
+go_bp_down_terms	418
+ranked_genes_for_gsea	16571
+gsea_go_bp_terms	229
+gsea_go_bp_positive_terms	185
+gsea_go_bp_negative_terms	44
