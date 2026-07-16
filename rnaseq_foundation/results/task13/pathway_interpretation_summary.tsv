@@ -1,0 +1,31 @@
+direction	ID	Description	GeneRatio	Count	p.adjust
+upregulated genes	GO:0003012	muscle system process	30/419	30	0.00153749593996528
+upregulated genes	GO:0031589	cell-substrate adhesion	28/419	28	0.00153749593996528
+upregulated genes	GO:0044057	regulation of system process	32/419	32	0.00193800229943695
+upregulated genes	GO:0043500	muscle adaptation	13/419	13	0.00219354721592975
+upregulated genes	GO:0014888	striated muscle adaptation	8/419	8	0.00219354721592975
+upregulated genes	GO:0001525	angiogenesis	33/419	33	0.00469293540635647
+upregulated genes	GO:0071385	cellular response to glucocorticoid stimulus	9/419	9	0.00481498677904064
+upregulated genes	GO:0008217	regulation of blood pressure	15/419	15	0.00481498677904064
+upregulated genes	GO:0072593	reactive oxygen species metabolic process	18/419	18	0.00481498677904064
+upregulated genes	GO:0001503	ossification	28/419	28	0.00481498677904064
+upregulated genes	GO:0030198	extracellular matrix organization	23/419	23	0.00481498677904064
+upregulated genes	GO:0043062	extracellular structure organization	23/419	23	0.00481498677904064
+upregulated genes	GO:0045229	external encapsulating structure organization	23/419	23	0.005029932979666
+upregulated genes	GO:0014896	muscle hypertrophy	11/419	11	0.00719152488992458
+upregulated genes	GO:0050886	endocrine process	10/419	10	0.00990622334684346
+downregulated genes	GO:0051962	positive regulation of nervous system development	26/365	26	2.6298526048188e-06
+downregulated genes	GO:0051960	regulation of nervous system development	32/365	32	5.76136010782325e-06
+downregulated genes	GO:0061564	axon development	33/365	33	4.6799584634091e-05
+downregulated genes	GO:2000027	regulation of animal organ morphogenesis	12/365	12	4.6799584634091e-05
+downregulated genes	GO:0006935	chemotaxis	28/365	28	4.6799584634091e-05
+downregulated genes	GO:0042330	taxis	28/365	28	4.6799584634091e-05
+downregulated genes	GO:0007409	axonogenesis	30/365	30	5.92912326507725e-05
+downregulated genes	GO:0003013	circulatory system process	34/365	34	9.42181106268127e-05
+downregulated genes	GO:0010720	positive regulation of cell development	28/365	28	9.42181106268127e-05
+downregulated genes	GO:0030335	positive regulation of cell migration	34/365	34	9.42181106268127e-05
+downregulated genes	GO:0007411	axon guidance	19/365	19	0.000141913902052882
+downregulated genes	GO:0008015	blood circulation	30/365	30	0.000141913902052882
+downregulated genes	GO:0097485	neuron projection guidance	19/365	19	0.000141913902052882
+downregulated genes	GO:2000147	positive regulation of cell motility	34/365	34	0.000143672218540624
+downregulated genes	GO:0045670	regulation of osteoclast differentiation	10/365	10	0.000224392372300307
