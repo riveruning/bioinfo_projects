@@ -1,0 +1,33 @@
+/home/riveruning/miniforge3/envs/scrna/lib/python3.11/functools.py:909: UserWarning: zero-centering a sparse array/matrix densifies it.
+  return dispatch(args[0].__class__)(*args, **kw)
+Task 05: PCA, nearest-neighbor graph, and UMAP
+
+Input AnnData:
+AnnData object with n_obs × n_vars = 2638 × 13714
+    obs: 'n_genes_by_counts', 'total_counts', 'total_counts_mt', 'pct_counts_mt', 'n_genes'
+    var: 'gene_ids', 'mt', 'n_cells_by_counts', 'mean_counts', 'pct_dropout_by_counts', 'total_counts', 'n_cells', 'highly_variable', 'means', 'dispersions', 'dispersions_norm'
+    uns: 'hvg', 'log1p'
+    layers: 'counts', 'normalized'
+Cells: 2638
+Genes: 13714
+Highly variable genes: 1838
+
+Saved AnnData to: data/pbmc3k_pca_neighbors_umap.h5ad
+
+Summary:
+                    item  value
+0                  cells   2638
+1                  genes  13714
+2  highly_variable_genes   1838
+3            pca_n_comps     50
+4  neighbors_n_neighbors     10
+5        neighbors_n_pcs     40
+6        umap_dimensions      2
+
+Main outputs:
+  data/pbmc3k_pca_neighbors_umap.h5ad
+  results/task05/task05_pca_neighbors_umap_summary.tsv
+  results/task05/pca_variance_ratio.tsv
+  results/task05/umap_coordinates.tsv
+  figures/task05
+Task 05 finished.

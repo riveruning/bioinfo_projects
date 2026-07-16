@@ -1,0 +1,8 @@
+item	value
+cells	2638
+genes	13714
+highly_variable_genes	1838
+pca_n_comps	50
+neighbors_n_neighbors	10
+neighbors_n_pcs	40
+umap_dimensions	2
