@@ -1,0 +1,12 @@
+item	value
+cells	2638.0
+genes_after_qc	13714.0
+highly_variable_genes	1838.0
+normalization_target_sum	10000.0
+raw_total_counts_mean	2371.069091796875
+raw_total_counts_median	2213.0
+normalized_total_counts_mean	10000.0
+normalized_total_counts_median	10000.0
+hvg_min_mean	0.0125
+hvg_max_mean	3.0
+hvg_min_disp	0.5

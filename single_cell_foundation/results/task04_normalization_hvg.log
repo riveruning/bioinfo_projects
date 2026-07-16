@@ -1,0 +1,70 @@
+Task 04: normalization, log transform, and highly variable genes
+
+Input AnnData:
+AnnData object with n_obs × n_vars = 2638 × 13714
+    obs: 'n_genes_by_counts', 'total_counts', 'total_counts_mt', 'pct_counts_mt', 'n_genes'
+    var: 'gene_ids', 'mt', 'n_cells_by_counts', 'mean_counts', 'pct_dropout_by_counts', 'total_counts', 'n_cells'
+Cells: 2638
+Genes: 13714
+
+Highly variable genes: 1838
+Saved normalized AnnData to: data/pbmc3k_normalized_hvg.h5ad
+
+Summary:
+                              item         value
+0                            cells   2638.000000
+1                   genes_after_qc  13714.000000
+2            highly_variable_genes   1838.000000
+3         normalization_target_sum  10000.000000
+4            raw_total_counts_mean   2371.069092
+5          raw_total_counts_median   2213.000000
+6     normalized_total_counts_mean  10000.000000
+7   normalized_total_counts_median  10000.000000
+8                     hvg_min_mean      0.012500
+9                     hvg_max_mean      3.000000
+10                    hvg_min_disp      0.500000
+
+Top 30 HVGs:
+                     gene_ids     mt  ...  dispersions  dispersions_norm
+index                                 ...                               
+DOK3          ENSG00000146094  False  ...     5.838389          8.074296
+ARVCF         ENSG00000099889  False  ...     5.807067          8.012451
+YPEL2         ENSG00000175155  False  ...     5.806287          8.010911
+UBE2D4        ENSG00000078967  False  ...     5.779663          7.958343
+FAM210B       ENSG00000124098  False  ...     5.728169          7.856669
+CTB-113I20.2  ENSG00000271737  False  ...     5.654500          7.711212
+GBGT1         ENSG00000148288  False  ...     5.626286          7.655503
+LRRIQ3        ENSG00000162620  False  ...     5.439987          7.287661
+MTIF2         ENSG00000085760  False  ...     5.374130          7.157629
+TTC8          ENSG00000165533  False  ...     5.248446          6.909469
+EID2          ENSG00000176396  False  ...     5.198720          6.811286
+PGM2L1        ENSG00000165434  False  ...     5.194693          6.803336
+HIST1H1B      ENSG00000184357  False  ...     5.129892          6.675387
+LINC00662     ENSG00000261824  False  ...     5.044129          6.506050
+MTRF1         ENSG00000120662  False  ...     5.028401          6.474997
+C2CD4D        ENSG00000225556  False  ...     5.006212          6.431184
+BACE2         ENSG00000182240  False  ...     4.993499          6.406083
+CDKN2A        ENSG00000147889  False  ...     4.988605          6.396421
+LINC00886     ENSG00000240875  False  ...     4.950367          6.320921
+NAPA-AS1      ENSG00000268061  False  ...     4.912546          6.246244
+FAM98A        ENSG00000119812  False  ...     4.903838          6.229050
+LZTS2         ENSG00000107816  False  ...     4.876994          6.176048
+SLC27A1       ENSG00000130304  False  ...     4.869269          6.160795
+USP38         ENSG00000170185  False  ...     4.861467          6.145390
+PPT2-EGFL8    ENSG00000258388  False  ...     4.859050          6.140618
+MADD          ENSG00000110514  False  ...     4.858152          6.138844
+ZNF561        ENSG00000171469  False  ...     4.851103          6.124927
+PXMP4         ENSG00000101417  False  ...     4.842517          6.107973
+HEMK1         ENSG00000114735  False  ...     4.821633          6.066739
+ARHGAP24      ENSG00000138639  False  ...     4.811377          6.046489
+
+[30 rows x 7 columns]
+
+Main outputs:
+  data/pbmc3k_normalized_hvg.h5ad
+  results/task04/task04_normalization_hvg_summary.tsv
+  results/task04/pbmc3k_hvg_table.tsv
+  results/task04/pbmc3k_highly_variable_genes.tsv
+  results/task04/pbmc3k_top30_hvg.tsv
+  figures/task04
+Task 04 finished.
