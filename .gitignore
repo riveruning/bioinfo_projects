@@ -42,3 +42,7 @@ rnaseq_foundation/tmp/
 
 # Derived tximport helper file
 rnaseq_foundation/metadata/tx2gene_for_salmon.tsv
+
+# Project-specific large data symlinks and temporary index files
+rnaseq_foundation/data/raw_fastq/
+rnaseq_foundation/sshash_tmp/
