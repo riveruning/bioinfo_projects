@@ -1,0 +1,12 @@
+item	value
+raw_cells	2700
+raw_genes	32738
+filtered_cells	2638
+filtered_genes	13714
+removed_cells	62
+removed_genes	19024
+mitochondrial_genes_detected	13
+cell_filter_min_genes	200
+cell_filter_max_genes	2500
+cell_filter_max_pct_counts_mt	5
+gene_filter_min_cells	3

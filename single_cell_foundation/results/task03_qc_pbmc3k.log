@@ -1,0 +1,40 @@
+Task 03: PBMC3k quality control
+
+Raw AnnData:
+AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'
+Raw cells: 2700
+Raw genes: 32738
+Mitochondrial genes detected by MT- prefix: 13
+
+obs columns after QC:
+['n_genes_by_counts', 'total_counts', 'total_counts_mt', 'pct_counts_mt']
+
+Filtered AnnData:
+AnnData object with n_obs × n_vars = 2638 × 13714
+    obs: 'n_genes_by_counts', 'total_counts', 'total_counts_mt', 'pct_counts_mt', 'n_genes'
+    var: 'gene_ids', 'mt', 'n_cells_by_counts', 'mean_counts', 'pct_dropout_by_counts', 'total_counts', 'n_cells'
+Filtered cells: 2638
+Filtered genes: 13714
+
+Filtering summary:
+                             item  value
+0                       raw_cells   2700
+1                       raw_genes  32738
+2                  filtered_cells   2638
+3                  filtered_genes  13714
+4                   removed_cells     62
+5                   removed_genes  19024
+6    mitochondrial_genes_detected     13
+7           cell_filter_min_genes    200
+8           cell_filter_max_genes   2500
+9   cell_filter_max_pct_counts_mt      5
+10          gene_filter_min_cells      3
+
+Main outputs:
+  results/task03/pbmc3k_qc_filtering_summary.tsv
+  results/task03/pbmc3k_qc_summary_raw.tsv
+  results/task03/pbmc3k_qc_summary_filtered.tsv
+  data/pbmc3k_qc_filtered.h5ad
+  figures/task03
+Task 03 finished.

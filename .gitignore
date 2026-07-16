@@ -46,3 +46,8 @@ rnaseq_foundation/metadata/tx2gene_for_salmon.tsv
 # Project-specific large data symlinks and temporary index files
 rnaseq_foundation/data/raw_fastq/
 rnaseq_foundation/sshash_tmp/
+
+# Single-cell project data objects
+single_cell_foundation/data/
+single_cell_foundation/results/*.h5ad
+single_cell_foundation/results/*/*.h5ad
