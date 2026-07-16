@@ -1,0 +1,51 @@
+Task 06: Leiden clustering
+
+Input AnnData:
+AnnData object with n_obs × n_vars = 2638 × 13714
+    obs: 'n_genes_by_counts', 'total_counts', 'total_counts_mt', 'pct_counts_mt', 'n_genes'
+    var: 'gene_ids', 'mt', 'n_cells_by_counts', 'mean_counts', 'pct_dropout_by_counts', 'total_counts', 'n_cells', 'highly_variable', 'means', 'dispersions', 'dispersions_norm', 'mean', 'std'
+    uns: 'hvg', 'log1p', 'neighbors', 'pca', 'umap'
+    obsm: 'X_pca', 'X_umap'
+    varm: 'PCs'
+    layers: 'counts', 'normalized'
+    obsp: 'connectivities', 'distances'
+leiden_r0_3: 6 clusters
+leiden_r0_5: 6 clusters
+leiden_r0_8: 8 clusters
+leiden_r1_0: 9 clusters
+
+Primary Leiden clusters: 6
+
+Summary:
+                  item            value
+0                cells             2638
+1   primary_resolution              0.5
+2  primary_cluster_key           leiden
+3   primary_n_clusters                6
+4   tested_resolutions  0.3,0.5,0.8,1.0
+
+Primary cluster counts:
+  cluster  n_cells
+0       0     1196
+1       1      414
+2       2      340
+3       3      639
+4       4       36
+5       5       13
+
+Resolution summary:
+   resolution          key  ...  smallest_cluster_size  largest_cluster_size
+0         0.3  leiden_r0_3  ...                     13                  1209
+1         0.5  leiden_r0_5  ...                     13                  1196
+2         0.8  leiden_r0_8  ...                     13                  1125
+3         1.0  leiden_r1_0  ...                     13                   641
+
+[4 rows x 5 columns]
+
+Main outputs:
+  data/pbmc3k_leiden.h5ad
+  results/task06/task06_leiden_clustering_summary.tsv
+  results/task06/leiden_primary_cluster_counts.tsv
+  results/task06/leiden_resolution_summary.tsv
+  figures/task06
+Task 06 finished.

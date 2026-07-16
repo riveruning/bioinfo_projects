@@ -1,0 +1,6 @@
+item	value
+cells	2638
+primary_resolution	0.8
+primary_cluster_key	leiden
+primary_n_clusters	8
+tested_resolutions	0.3,0.5,0.8,1.0

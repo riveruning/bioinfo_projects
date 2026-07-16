@@ -1,0 +1,5 @@
+resolution	key	n_clusters	smallest_cluster_size	largest_cluster_size
+0.3	leiden_r0_3	6	13	1209
+0.5	leiden_r0_5	6	13	1196
+0.8	leiden_r0_8	8	13	1125
+1.0	leiden_r1_0	9	13	641
