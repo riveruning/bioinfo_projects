@@ -1,0 +1,6 @@
+item	value
+n_cells	2700
+n_genes	32738
+adata_X_type	<class 'scipy.sparse._csr.csr_matrix'>
+obs_columns	
+var_columns	gene_ids

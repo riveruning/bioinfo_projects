@@ -1,0 +1,36 @@
+Task 02: Load PBMC3k dataset
+
+AnnData object:
+AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'
+
+Number of cells: 2700
+Number of genes: 32738
+
+adata.X:
+<class 'scipy.sparse._csr.csr_matrix'>
+(2700, 32738)
+
+adata.obs head:
+Empty DataFrame
+Columns: []
+Index: [AAACATACAACCAC-1, AAACATTGAGCTAC-1, AAACATTGATCAGC-1, AAACCGTGCTTCCG-1, AAACCGTGTATGCG-1]
+
+adata.var head:
+                     gene_ids
+index                        
+MIR1302-10    ENSG00000243485
+FAM138A       ENSG00000237613
+OR4F5         ENSG00000186092
+RP11-34P13.7  ENSG00000238009
+RP11-34P13.8  ENSG00000239945
+
+obs columns:
+[]
+
+var columns:
+['gene_ids']
+
+Saved raw AnnData object to: data/pbmc3k_raw.h5ad
+Saved summary to: results/task02/pbmc3k_basic_summary.tsv
+Task 02 finished.
