@@ -1,0 +1,7 @@
+item	value
+cells	2638
+clusters	8
+annotated_cell_types	8
+annotation_type	manual_marker_based_annotation
+uncertain_clusters	5
+output_h5ad	data/pbmc3k_annotated.h5ad

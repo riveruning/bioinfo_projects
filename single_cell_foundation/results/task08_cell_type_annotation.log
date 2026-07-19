@@ -1,0 +1,51 @@
+Task 08: cell type annotation
+
+Input AnnData:
+AnnData object with n_obs × n_vars = 2638 × 13714
+    obs: 'n_genes_by_counts', 'total_counts', 'total_counts_mt', 'pct_counts_mt', 'n_genes', 'leiden_r0_3', 'leiden_r0_5', 'leiden_r0_8', 'leiden_r1_0', 'leiden'
+    var: 'gene_ids', 'mt', 'n_cells_by_counts', 'mean_counts', 'pct_dropout_by_counts', 'total_counts', 'n_cells', 'highly_variable', 'means', 'dispersions', 'dispersions_norm', 'mean', 'std'
+    uns: 'hvg', 'leiden_colors', 'leiden_r0_3', 'leiden_r0_3_colors', 'leiden_r0_5', 'leiden_r0_5_colors', 'leiden_r0_8', 'leiden_r0_8_colors', 'leiden_r1_0', 'leiden_r1_0_colors', 'log1p', 'neighbors', 'pca', 'rank_genes_leiden', 'umap'
+    obsm: 'X_pca', 'X_umap'
+    varm: 'PCs'
+    layers: 'counts', 'normalized'
+    obsp: 'connectivities', 'distances'
+
+Task summary:
+                   item                           value
+0                 cells                            2638
+1              clusters                               8
+2  annotated_cell_types                               8
+3       annotation_type  manual_marker_based_annotation
+4    uncertain_clusters                               5
+5           output_h5ad      data/pbmc3k_annotated.h5ad
+
+Cluster annotation summary:
+  cluster  ... n_cells
+0       0  ...    1125
+1       1  ...     340
+2       2  ...     222
+3       3  ...     429
+4       4  ...     417
+5       5  ...      56
+6       6  ...      36
+7       7  ...      13
+
+[8 rows x 6 columns]
+
+Cell type counts:
+                   cell_type  n_cells
+0                    T cells     1125
+1       NK / cytotoxic cells      429
+2            CD14+ monocytes      417
+3                    B cells      340
+4  Monocytes / myeloid cells      222
+5         T-like / uncertain       56
+6            Dendritic cells       36
+7                  Platelets       13
+
+Main outputs:
+  data/pbmc3k_annotated.h5ad
+  results/task08/cluster_cell_type_annotation.tsv
+  results/task08/cell_type_counts.tsv
+  figures/task08
+Task 08 finished.

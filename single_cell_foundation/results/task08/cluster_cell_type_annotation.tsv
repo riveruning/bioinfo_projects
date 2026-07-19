@@ -1,0 +1,9 @@
+cluster	cell_type	evidence_genes	confidence	comment
+0	T cells	CD3D,CD3E,IL7R,LTB	medium	T cell markers are present, although ribosomal genes also rank highly.
+1	B cells	CD79A,CD79B,MS4A1,CD74,HLA-DRA	high	B cell receptor and MHC-II genes support B cell identity.
+2	Monocytes / myeloid cells	LST1,COTL1,AIF1,FCER1G,FTH1	medium	Myeloid and monocyte-associated genes are enriched.
+3	NK / cytotoxic cells	NKG7,CST7,GZMA,CTSW,GNLY	high	Cytotoxic markers support NK or cytotoxic lymphocyte identity.
+4	CD14+ monocytes	S100A8,S100A9,LYZ,TYROBP,FTL	high	Classic inflammatory monocyte markers are enriched.
+5	T-like / uncertain	MALAT1,RPL32,RPS27,RPL27A,RPS15A	low	Top markers are not cell-type specific. This cluster should be treated cautiously.
+6	Dendritic cells	HLA-DPA1,HLA-DPB1,HLA-DRA,HLA-DRB1,CD74,FCER1A,CST3	medium	MHC-II and dendritic/myeloid-related markers support dendritic cell identity.
+7	Platelets	PF4,PPBP,SDPR,GNG11,NRGN	high	Platelet markers are strongly enriched.
