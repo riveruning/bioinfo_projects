@@ -1,0 +1,51 @@
+Task 07: marker gene detection
+
+Input AnnData:
+AnnData object with n_obs × n_vars = 2638 × 13714
+    obs: 'n_genes_by_counts', 'total_counts', 'total_counts_mt', 'pct_counts_mt', 'n_genes', 'leiden_r0_3', 'leiden_r0_5', 'leiden_r0_8', 'leiden_r1_0', 'leiden'
+    var: 'gene_ids', 'mt', 'n_cells_by_counts', 'mean_counts', 'pct_dropout_by_counts', 'total_counts', 'n_cells', 'highly_variable', 'means', 'dispersions', 'dispersions_norm', 'mean', 'std'
+    uns: 'hvg', 'leiden_colors', 'leiden_r0_3', 'leiden_r0_3_colors', 'leiden_r0_5', 'leiden_r0_5_colors', 'leiden_r0_8', 'leiden_r0_8_colors', 'leiden_r1_0', 'leiden_r1_0_colors', 'log1p', 'neighbors', 'pca', 'umap'
+    obsm: 'X_pca', 'X_umap'
+    varm: 'PCs'
+    layers: 'counts', 'normalized'
+    obsp: 'connectivities', 'distances'
+
+Cluster counts:
+leiden
+0    1125
+1     340
+2     222
+3     429
+4     417
+5      56
+6      36
+7      13
+Name: count, dtype: int64
+
+Task summary:
+                        item                                              value
+0                      cells                                               2638
+1                   clusters                                                  8
+2                    groupby                                             leiden
+3                     method                                           wilcoxon
+4                    use_raw                                               True
+5           top_marker_table  results/task07/all_clusters_top20_marker_genes...
+6  classic_markers_available  IL7R,CD3D,CD3E,MS4A1,CD79A,LYZ,S100A8,S100A9,N...
+
+Top 5 markers by cluster:
+  cluster                        top5_marker_genes
+0       0              LDHB,RPS12,RPS25,RPS3,RPS27
+1       1        CD74,CD79A,HLA-DRA,CD79B,HLA-DPB1
+2       2              LST1,COTL1,AIF1,FCER1G,FTH1
+3       3                  NKG7,CST7,GZMA,CTSW,B2M
+4       4             S100A9,S100A8,LYZ,TYROBP,FTL
+5       5         MALAT1,RPL32,RPS27,RPL27A,RPS15A
+6       6  HLA-DPA1,HLA-DPB1,HLA-DRA,HLA-DRB1,CD74
+7       7                 PF4,SDPR,GNG11,PPBP,NRGN
+
+Main outputs:
+  data/pbmc3k_marker_genes.h5ad
+  results/task07/all_clusters_top20_marker_genes.tsv
+  results/task07/top5_markers_by_cluster.tsv
+  figures/task07
+Task 07 finished.

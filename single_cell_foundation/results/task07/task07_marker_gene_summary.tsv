@@ -1,0 +1,8 @@
+item	value
+cells	2638
+clusters	8
+groupby	leiden
+method	wilcoxon
+use_raw	True
+top_marker_table	results/task07/all_clusters_top20_marker_genes.tsv
+classic_markers_available	IL7R,CD3D,CD3E,MS4A1,CD79A,LYZ,S100A8,S100A9,NKG7,GNLY,PPBP,FCER1A,CST3
